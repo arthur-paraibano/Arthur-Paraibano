@@ -14,6 +14,11 @@ Olá pessoal, sou formado em Engenharia da Computação atualmente me especializ
 </div>
   
   ##
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=arthur-paraibano&show_icons=true&theme=tokyonight)      ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=arthur-paraibano&show_icons=true&theme=tokyonight&layout=compact)
+<br>
+
+  ##
  
 <div>
     <a href="https://www.instagram.com/arthur_paraibano/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>

@@ -1,6 +1,6 @@
 ## Olá! eu sou o Arthur Mikael, sou desenvolvedor!
 
-Olá! Sou Arthur Mikael Bastos do Nascimento, formado em Engenharia da Computação e atualmente cursando Desenvolvimento Full Stack. Apaixonado pela área de Tecnologia, estou sempre em busca de inovação e aprimoramento constante, tanto em projetos profissionais quanto pessoais.**! ☕👨‍💻
+Olá! Sou Arthur Mikael, formado em Engenharia da Computação e atualmente cursando Desenvolvimento Full Stack. Apaixonado pela área de Tecnologia, estou sempre em busca de inovação e aprimoramento constante, tanto em projetos profissionais quanto pessoais.**! ☕👨‍💻
 
 <div style="display: inline_block"><br>
     <img align="center" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white">

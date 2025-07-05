@@ -1,40 +1,22 @@
-# Nome do Workflow
-name: Generate Snake Animation
+name: Generate Snake
 
-# Define quando a automação deve rodar
 on:
-  # Roda automaticamente a cada 12 horas
   schedule:
-    - cron: "0 */12 * * *"
-  
-  # Permite que você rode a automação manualmente pela aba Actions
+    - cron: "0 0 * * *" # Todos os dias à meia-noite
   workflow_dispatch:
 
-# Define as tarefas que serão executadas
 jobs:
-  build:
-    runs-on: ubuntu-latest # Usa um ambiente Linux para rodar
-
+  generate:
+    runs-on: ubuntu-latest
     steps:
-      # Etapa 1: Clona o seu repositório para dentro da automação
-      - uses: actions/checkout@v3
-
-      # Etapa 2: Gera o arquivo do "jogo da cobrinha"
-      - uses: Platane/snk@v3
+      - uses: Platane/snk@master
         with:
-          # Pega o seu nome de usuário do GitHub automaticamente
-          github_user_name: ${{ github.repository_owner }}
-          
-          # Define os nomes dos arquivos de saída (um para tema claro, outro para escuro)
+          github_user_name: arthur-paraibano
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Etapa 3: Envia os arquivos gerados para um branch chamado "output"
-      - uses: crazy-max/ghaction-github-pages@v3
+      - name: Push to GitHub
+        uses: EndBug/add-and-commit@v9
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          # Token de permissão para a automação poder escrever no seu repositório
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          message: "🐍 Snake animation updated"
+          add: "dist/github-contribution-grid-snake.svg"

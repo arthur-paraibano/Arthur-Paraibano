@@ -3,7 +3,7 @@
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,12,30&height=260&section=header&text=Arthur%20Mikael&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=%3C%2F%3E%20Full%20Stack%20Developer%20%7C%20Engenharia%20da%20Computa%C3%A7%C3%A3o&descAlignY=56&descSize=18" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,12,30&height=260&section=header&text=Arthur%20Mikael&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20Developer%20%7C%20Engenharia%20da%20Computa%C3%A7%C3%A3o&descAlignY=56&descSize=18" width="100%"/>
 </div>
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
@@ -126,8 +126,8 @@ const arthurMikael: Developer = {
 ## 📊 &nbsp; `~/github-analytics`
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=arthur-paraibano&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&title_color=a78bfa&icon_color=a78bfa&bg_color=1a1b27"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arthur-paraibano&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&title_color=a78bfa&bg_color=1a1b27"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=arthur-paraibano&show_icons=true&theme=tokyonight&include_all_commits=true&hide_border=true&title_color=a78bfa&icon_color=a78bfa"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arthur-paraibano&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&title_color=a78bfa"/>
 </div>
 
 <div align="center">
